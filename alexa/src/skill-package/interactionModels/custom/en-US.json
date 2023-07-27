@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "zipcode",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "name",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "gender",
+              "type": "Gender"
+            }
+          ],
+          "name": "SearchDoctorIntent",
+          "samples": [
+            "I need a {gender} doctor",
+            "I\u0027m looking for a doctor in {zipcode}",
+            "I\u0027m looking for doctor {name}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Male"
+              }
+            },
+            {
+              "name": {
+                "value": "Female"
+              }
+            }
+          ],
+          "name": "Gender"
+        }
+      ],
+      "invocationName": "healthylinkx"
+    }
+  }
+}

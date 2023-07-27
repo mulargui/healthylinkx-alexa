@@ -1,0 +1,18 @@
+#sensible data
+.aws/config
+.aws/credentials
+#**/envparams.sh
+#**/envparams.js
+#**/envparams.ts
+**/awsparams.sh
+**/loaddata.sh
+**/github.txt
+**/.DS_Store
+
+# Dependency directories
+node_modules/
+jspm_packages/
+package-lock.json
+
+#not include python cache
+/__pycache__/*

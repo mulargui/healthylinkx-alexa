@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:AWS_REGION:AWS_ACCOUNT_ID:function:healthylinkx-alexa-lambda"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:AWS_REGION:AWS_ACCOUNT_ID:function:healthylinkx-alexa-lambda"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {}
+      },
+      "shoppingKit": {
+        "isAmazonAssociatesOnAlexaEnabled": false,
+        "isShoppingActionsEnabled": false
+      }
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "HEALTH_INFORMATION_AND_HELP",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Find doctors with the help of your social network",
+          "examplePhrases": [
+            "Alexa open healthylinkx",
+            "",
+            ""
+          ],
+          "keywords": [],
+          "name": "Healthylinkx",
+          "summary": "Find doctors with the help of your social network"
+        }
+      },
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}"
+    }
+  }
+}
